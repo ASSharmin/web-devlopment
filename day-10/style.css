@@ -1,0 +1,28 @@
+.topbar{
+    background-color: #9E5BBA;
+    color: #fff;
+    border-bottom: 2px solid red;
+}
+.topbar a {
+    text-decoration: none;
+}
+.header .logo img{
+    margin: 18px 0px 13px 20px;
+}
+.header .navbar{
+    background-color: #8cc643;
+}
+.header .navbar .nav-link{
+    font-size: 13px;
+    line-height: 10px;
+padding: 0;
+padding-top:2px;
+color:white;
+}
+.header .navbar li{
+    border-left:1px solid white;
+    padding-right:5px;
+}
+.header .navbar .badge{
+    font-size: 14px;
+}
