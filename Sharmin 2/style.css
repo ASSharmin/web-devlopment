@@ -1,0 +1,76 @@
+.topbar{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.topbar-left-p{
+    padding: 5px 5px 0 5px;
+}
+
+.topbar-right{
+    float: right;
+
+}
+.topbar-right div{
+    display: inline-block;
+    float:right;
+    border-left: 1px solid white;
+    height: 50px;
+    padding: 5px;
+}
+.topbar-right p{
+    display: inline-block;
+    float:right;
+    padding: 5px 5px 0 5px ; 
+}
+/* logo part start */
+.logo{
+    height: 110px;
+
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+        padding-top: 45px;
+}
+.logo_search input{
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+}
+.logo_search button{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px; 
+}
+.logo1{
+    border-right: 1px solid white;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+
+/* logo part end */
+/* menu part start*/
+.menu ul li a{
+    font-size: 15px !important;
+}
+.menu ul li a:hover{
+   background: rgb(192, 34, 34);
+}
+
+
+/* menu part end*/
+/* Hero part start*/
+
+.banner img{
+    border: 1px solid red;
+    padding: 10px;
+}
+
+/* Hero part end*/
