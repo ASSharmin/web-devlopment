@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--if condition  -->
+    <p id="demo">if condition</p>
+     <!--if else condition  -->
+     <p id="demo2"></p>
+     <p id="demo3"></p>
+     <p id="demo4"></p>
+    <script>
+        // if condition
+        var d = new Date();
+        if(d.getDate()<=3){
+            document.getElementById("demo").innerHTML = "result published before" + (d.getDate() -3) + "days";
+        }
+        // if else condition
+        if (d.getHours() > 12) {
+            document.getElementById("demo2").innerHTML = "Good Noon";  
+        }else{
+            document.getElementById("demo2").innerHTML = "Good Moring";
+        }
+        //if else condition
+        var d1 = new Date();
+        var h = d1.getHours();
+        if(h < 12){
+            document.getElementById("demo3").innerHTML = "Good Moring";
+
+        }else if (h >= 12 && h < 15)
+        {
+            document.getElementById("demo3").innerHTML = "Good Noon";
+        }else if (h >= 15 && h < 18){
+        document.getElementById("demo3").innerHTML = "Good after noon";
+        }else{
+            document.getElementById("demo3").innerHTML = "Good evening"; 
+        }
+        var d2 = new Date();
+        var day;
+        switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
+document.getElementById("demo4").innerHTML = day; 
+    </script>
+</body>
+</html>
